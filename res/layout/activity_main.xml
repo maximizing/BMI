@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/btnOK797"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="124dp"
+        android:text="OK" />
+
+    <EditText
+        android:id="@+id/editLastname797"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editWeight797"
+        android:layout_alignLeft="@+id/editFirstname797"
+        android:layout_marginBottom="24dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editFirstname797"
+        android:layout_alignParentLeft="true"
+        android:text="Firstname" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editLastname797"
+        android:layout_alignParentLeft="true"
+        android:text="Lastname" />
+
+    <EditText
+        android:id="@+id/editFirstname797"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editLastname797"
+        android:layout_marginBottom="37dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editWeight797"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtWeight797"
+        android:layout_alignBottom="@+id/txtWeight797"
+        android:layout_alignLeft="@+id/editLastname797"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtWeight797"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editHeight797"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginBottom="41dp"
+        android:text="Weight" />
+
+    <TextView
+        android:id="@+id/txtHeight797"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnOK797"
+        android:layout_alignRight="@+id/txtWeight797"
+        android:layout_marginBottom="19dp"
+        android:text="Height" />
+
+    <EditText
+        android:id="@+id/editHeight797"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtHeight797"
+        android:layout_alignBottom="@+id/txtHeight797"
+        android:layout_alignLeft="@+id/editWeight797"
+        android:ems="10"
+        android:inputType="number" />
+
+</RelativeLayout>
